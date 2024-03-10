@@ -3,7 +3,7 @@
 import "../styles/Footer.scss";
 import React from "react";
 import { LocationOn, LocalPhone, Email } from "@mui/icons-material";
-
+import {Link} from "react-router-dom"
 const Footer = () => {
   return (
     <div className="footer">
