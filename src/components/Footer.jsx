@@ -18,10 +18,10 @@ const Footer = () => {
         <h2>Quick Links</h2>
         <br/>
         <ul>
-          <li>Trip List</li><br/>
-          <li>Wish List</li><br/>
-          <li>Property List</li><br/>
-          <li>Reservation List</li>
+          <li><Link to="/:userId/trips">Trip List</Link></li><br/>
+          <li><Link to="/:userId/wishList">Wish List</Link></li><br/>
+          <li><Link to="/:userId/properties">Property List</Link></li><br/>
+          <li><Link to="/:userId/reservations">Reservation List</Link></li>
         </ul>
       </div>
 
